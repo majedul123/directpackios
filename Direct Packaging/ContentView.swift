@@ -16,7 +16,7 @@ struct ContentView: View {
                 .toolbar {
                     ToolbarItem(placement: .principal) {
                         HStack {
-                            Image(systemName: "shippingbox.fill")
+                            Image("appbarImage")
                                 .resizable()
                                 .frame(width: 24, height: 24)
                             Text("Direct Packaging")
